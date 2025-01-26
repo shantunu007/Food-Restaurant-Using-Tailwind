@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Restaurant</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+    
+    
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/4daf4a1723.js" crossorigin="anonymous"></script>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+            },
+          },
+        }
+    </script>
+
+    <style>
+         .bg-linear {
+            background: linear-gradient(to top, #101010, #09090900), url("images/hero-bg.png");
+         }
+    </style>
 </head>
 <body>
-    
+
+    <!-- header section -->
+     
+    <header class="bg-cover bg-center bg-no-repeat h-screen bg-linear">
+        <section class="text-center h-full flex mx-auto justify-center items-center">
+            <div class="">
+                <h4 class="font-semibold text-3xl text-white drop-shadow-lg">Savor the Flavors</h4>
+                <h1 class="font-bold text-4xl md:text-6xl text-white leading-tight mt-4 mb-6 drop-shadow-lg">Experience Culinary Excellence <br> Food Experience</h1>
+                <div>
+                    <p class="text-lg text-white font-medium leading-relaxed mb-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
+                </div>
+                <button class="bg-[#52C303] py-5 px-8 rounded-md text-xl font-semibold text-white">Shop The Hotest Food</button>
+            </div>
+        </section>
+    </header>
 </body>
 </html>
