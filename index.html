@@ -41,17 +41,51 @@
 
     <!-- header section -->
      
-    <header class="bg-cover bg-center bg-no-repeat h-screen bg-linear">
+    <header class="bg-linear py-20 w-full bg-cover bg-center lg:bg-cover lg:bg-center bg-no-repeat lg:h-screen lg:bg-linear">
         <section class="text-center h-full flex mx-auto justify-center items-center">
             <div class="">
-                <h4 class="font-semibold text-3xl text-white drop-shadow-lg">Savor the Flavors</h4>
+                <h4 class="font-semibold text-xl lg:text-3xl text-white drop-shadow-lg">Savor the Flavors</h4>
                 <h1 class="font-bold text-4xl md:text-6xl text-white leading-tight mt-4 mb-6 drop-shadow-lg">Experience Culinary Excellence <br> Food Experience</h1>
                 <div>
-                    <p class="text-lg text-white font-medium leading-relaxed mb-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
+                    <p class="text-base mx-4 lg:text-lg text-white font-medium leading-relaxed mb-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old. Richard McClintock</p>
                 </div>
-                <button class="bg-[#52C303] py-5 px-8 rounded-md text-xl font-semibold text-white">Shop The Hotest Food</button>
+                <button class="bg-[#52C303] py-2 text-base lg:py-5 px-8 rounded-md lg:text-xl font-semibold text-white">Shop The Hotest Food</button>
             </div>
         </section>
     </header>
+
+    <main>
+      <section class="md:max-w-3xl lg:max-w-7xl lg:py-28 mx-auto">
+        <div class="text-center mt-10">
+          <p class="text-gray-500 text-xl font-medium">Favorite Brands</p>
+          <h1 class="font-bold text-2xl lg:text-5xl leading-normal">Your Favorite Brands Food <br> Are Now On Sale</h1>
+        </div>
+
+        <div class="grid grid-cols-1 mx-4 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+          <div class="text-center">
+            <img src="images/pizza.png" alt="">
+            <button class="bg-orange-100 py-3 px-8 rounded-lg font-semibold text-lg mt-8 mb-6">Pizza Burg</button>
+            <h2 class="font-bold text-black text-4xl">Up To 50% Off</h2>
+            <p class="text-gray-500 font-medium mt-6">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+          </div>
+          <div class="text-center">
+            <img src="images/biriyani.png" alt="">
+            <button class="bg-orange-100 py-3 px-8 rounded-lg font-semibold text-lg mt-8 mb-6">Kacchi Bhai</button>
+            <h2 class="font-bold text-black text-4xl">Up To 50% Off</h2>
+            <p class="text-gray-500 mt-6">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+          </div>
+          <div class="text-center">
+            <img src="images/burger.png" alt="">
+            <button class="bg-orange-100 py-3 px-8 rounded-lg font-semibold text-lg mt-8 mb-6">Burger King</button>
+            <h2 class="font-bold text-black text-4xl">Up To 50% Off</h2>
+            <p class="text-gray-500 mt-6">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-6 lg:mt-16">
+          <button class="bg-amber-400 px-8 py-4 rounded-lg text-white font-semibold text-xl">Watch All Sales</button>
+        </div>
+      </section>
+    </main>
 </body>
 </html>
